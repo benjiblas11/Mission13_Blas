@@ -33,6 +33,9 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
         loadBooks();
     }, [pageSize, pageNum, totalItems, selectedCategories]);
 
+    if (loading) return <p>Loading projects...</p>;
+    if (error) return <p className="text-red-500">Error: {error}</p>;
+
     return (
         <>
             {/* ✅ Bootstrap container for padding and alignment */}
