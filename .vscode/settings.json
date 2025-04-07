@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/430cacf9-1177-4b86-aee9-26c6f50116c1/resourceGroups/appsvc_windows_eastus/providers/Microsoft.Web/sites/Mission13-Blas-Backend",
+    "appService.deploySubpath": "backend\\Mission13_Blas.API\\publish"
+}
